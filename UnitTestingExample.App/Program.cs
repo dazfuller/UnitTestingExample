@@ -6,8 +6,7 @@ namespace UnitTestingExample.App
     {
         static void Main(string[] args)
         {
-            var logger = new SimpleLogger();
-            var workUnit = new WorkUnit(logger);
+            var workUnit = new WorkUnit();
 
             Console.WriteLine(workUnit.GetNthFibonacci(10));
         }

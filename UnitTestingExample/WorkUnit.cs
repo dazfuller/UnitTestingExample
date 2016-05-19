@@ -4,9 +4,9 @@
     {
         private readonly ILogger _logger;
 
-        public WorkUnit(ILogger logger)
+        public WorkUnit()
         {
-            _logger = logger;
+            _logger = new SimpleLogger();
         }
 
         public int GetNthFibonacci(int n)
