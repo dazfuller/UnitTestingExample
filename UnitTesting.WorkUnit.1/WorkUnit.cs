@@ -1,4 +1,4 @@
-﻿namespace UnitTestingExample
+﻿namespace UnitTesting.WorkUnit._1
 {
     public class WorkUnit
     {

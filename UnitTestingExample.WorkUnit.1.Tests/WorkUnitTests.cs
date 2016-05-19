@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestingExample.Tests
+namespace UnitTestingExample.WorkUnit._1.Tests
 {
     [TestClass]
     public class WorkUnitTests
@@ -10,7 +10,7 @@ namespace UnitTestingExample.Tests
         public void SimpleFibonacciTest()
         {
             // Arrange
-            var workUnit = new WorkUnit();
+            var workUnit = new UnitTesting.WorkUnit._1.WorkUnit();
 
             // Act
             var result = workUnit.GetNthFibonacci(10);
