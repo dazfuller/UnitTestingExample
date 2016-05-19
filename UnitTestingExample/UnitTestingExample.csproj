@@ -44,9 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILogger.cs" />
     <Compile Include="IpsumDataGenerator.cs" />
+    <Compile Include="SimpleLogger.cs" />
     <Compile Include="StringUtilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

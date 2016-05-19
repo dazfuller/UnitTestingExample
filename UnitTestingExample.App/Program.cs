@@ -6,10 +6,10 @@ namespace UnitTestingExample.App
     {
         static void Main(string[] args)
         {
-            var generator = new IpsumDataGenerator();
-            var dummyText = generator.Generate();
+            var logger = new SimpleLogger();
+            var workUnit = new WorkUnit(logger);
 
-            Console.WriteLine(dummyText);
+            Console.WriteLine(workUnit.GetNthFibonacci(10));
         }
     }
 }
